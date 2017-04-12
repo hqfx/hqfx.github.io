@@ -140,7 +140,7 @@ if (!('webkitSpeechRecognition' in window)) {
         "Please ensure that your microphone is connected to the computer and turned on.";
     } else if (e.error === 'not-allowed') {
       msg =
-        "Dication.io cannot access your microphone. Please go to chrome://settings/contentExceptions#media-stream and allow Microphone access to this website.";
+        "CallTalk cannot access your microphone. Please go to chrome://settings/contentExceptions#media-stream and allow Microphone access to this website.";
     }
     document.getElementById("warning").innerHTML = "<p>" + msg + "</p>";
     setTimeout(function() {
