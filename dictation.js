@@ -103,7 +103,7 @@ var clear, working, speech, final_transcript = "";
 if (!('webkitSpeechRecognition' in window)) {
 
   document.getElementById("labnol").innerHTML =
-    "Dictation.io requires <a href='https://www.google.com/chrome/browser/' target='_blank'>Google Chrome</a>. You can however still use this app as a notepad. Just click anywhere, start writing and it will auto-save the text.<br><br>For support, tweet <a href='http://twitter.com/labnol' target='_blank'>@labnol</a> or email the <a href='https://ctrlq.org/' target='_blank'>developer</a> at amit@labnol.org";
+    "CallTalk requires <a href='https://www.google.com/chrome/browser/' target='_blank'>Google Chrome</a>. You can however still use this app as a notepad. Just click anywhere, start writing and it will auto-save the text.<br><br>For support, please email the developer: K5TXT at arrl dot net";
   document.getElementById("messages").style.display = "none";
   document.getElementById("platformslang").style.display = "none";
 
