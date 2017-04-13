@@ -115,7 +115,7 @@ if (!('webkitSpeechRecognition' in window)) {
   final_transcript = localStorage['transcript'];
 
   if (localStorage['transcript'] === "") {
-    document.getElementById("warning").innerHTML = "Select region from the dropdown menu below. <br><br> Click \"Start Dictation\" button and speak the phonetic alphabet.<br>When complete click \"Stop listening\" then "COPY" and "SEND" <>br><br>For support please: K5NEW at arrl dot net";
+    document.getElementById("warning").innerHTML = "Select region from the dropdown menu below. <br><br> Click \"Start Dictation\" button and speak the phonetic alphabet. <br>When complete click \"Stop listening\" then \"COPY\" and \"SEND\" <>br><br>For support email: K5NEW at arrl dot net";
   }
 
   setInterval(function() {
